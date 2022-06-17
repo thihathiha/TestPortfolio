@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 1px 13px 0px rgba(0,0,0,0.1);
+    position: fixed;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img{
+    width: 71px;
+    cursor: pointer;
+}
+
+nav ul{
+    width: 470px;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #585b5b;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover{
+    background-color: #038c68;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+nav .greeting{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #21eb8c;
+    font-weight: 100;
+    font-size: 0.9rem;
+    border-bottom: 2px solid #21eb8c;
+    padding-bottom: 2px;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .first{
+    width: 85%;
+    height: 510px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#home .first .model{
+    width: 480px;
+    height: 530px;
+}
+
+#home .first .model img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#home .first .about{
+    width: 520px;
+    height: 250px;
+}
+
+#home .first .about h1{
+    color: #333;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+#home .first .about p{
+    color: #00000065;
+    font-size: 17px;
+    line-height: 25px;
+
+    margin-bottom: 25px;
+}
+
+#home .first .about a{
+    color: #fff;
+    background-color: #038c68;
+    text-transform: capitalize;
+    font-weight: 100;
+    border-radius: 25px;
+
+    padding: 10px 30px;
+}
+
+#home .first .about a:hover{
+    background-color: #1dc498;
+    transition: all 0.1s;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills .second{
+    width: 85%;
+    height: 600px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#skills .second .skill-content{
+    width: 350px;
+    height: 500px;
+}
+
+#skills .second .skill-content span{
+    color: #21eb8c95;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#skills .second .skill-content h1{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.skill-content .skill-letter{
+    width: 100%;
+    height: 125px;
+
+    display: flex;
+    margin-top: 22px;
+}
+
+.skill-content .skill-letter .icon{
+    width: 20%;
+    height: 100%;
+}
+
+.skill-letter .icon i{
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+}
+
+.fa-html5{
+    color: red;
+}
+
+.fa-css3-alt{
+    color: blue;
+}
+
+.fa-js-square{
+    color: chocolate;
+}
+
+.skill-content .skill-letter .para{
+    width: 80%;
+    height: 100%;
+}
+
+.skill-content .skill-letter .para h3{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.skill-content .skill-letter .para p{
+    color: #00000090;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+
+    margin-top: 12px;
+}
+
+#skills .second .skill-photo{
+    width: 600px;
+    height: 400px;
+}
+
+#skills .second .skill-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+#recent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#recent .third{
+    width: 85%;
+    height: 700px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#recent .third .recent-content{
+    width: 700px;
+    height: 150px;
+}
+
+#recent .third .recent-content span{
+    color: #038c68;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+#recent .third .recent-content h1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+#recent .third .recent-photo{
+    width: 1100px;
+    height: 600px;
+}
+
+#recent .third .recent-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+#recent .third .recent-btn{
+    width: 400px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recent .third .recent-btn a{
+    color: #fff;
+    background-color: #038c68;
+    font-weight: 100;
+    border-radius: 18px;
+
+    padding: 8px 45px;
+}
+
+#recent .third .recent-btn a:hover{
+    background-color: #1dc498;
+    transition: all 0.2s;
+}
+
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#client .forth{
+    width: 85%;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+#client .forth .client-content{
+    width: 500px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#client .forth .client-content span{
+    color: #038c68;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#client .forth .client-content h1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+#client .forth .client-container{
+    width: 1000px;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#client .forth .client-container .client-box{
+    width: 300px;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#client .forth .client-container .client-box:hover{
+    background-color: #1dc498;
+    transform: translateY(-10px);
+    transition: all 0.2s;
+}
+
+.client-container .client-box img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    /* margin-bottom: 15px; */
+}
+
+.client-container .client-box .stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-star{
+    color: tomato;
+}
+
+.client-container .client-box p{
+    width: 240px;
+    color: #00000098;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.4rem;
+   
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* margin: 15px 0px; */
+}
+
+.client-container .client-box a{
+    color: #fff;
+    background-color: #038c68;
+
+    padding: 8px 20px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#contact .fifth{
+    width: 85%;
+    height: 600px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#contact .fifth img{
+    width: 400px;
+}
+
+#contact .fifth .contact-text{
+    width: 700px;
+    height: 50px;
+}
+
+#contact .fifth .contact-text h1{
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#contact .fifth .inputbox{
+    width: 350px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact .fifth .inputbox input{
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+#contact .fifth .inputbox a{
+    color: #fff;
+    background-color: #1dc498;
+    font-size: 0.9rem;
+    border-radius: 20px;
+
+    padding: 8px 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer span{
+    color: #00000085;
+    font-size: 0.9rem;
+}
